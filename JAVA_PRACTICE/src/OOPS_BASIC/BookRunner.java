@@ -9,5 +9,13 @@ public class BookRunner {
         artOfComputerProgramming.pages();
         effectiveJava.pages();
         cleanCode.pages();
+
+        artOfComputerProgramming.setNoOfCopies(5);
+        effectiveJava.setNoOfCopies(7);
+        cleanCode.setNoOfCopies(3);
+
+        System.out.println(artOfComputerProgramming.getNoOfCopies());
+        System.out.println(effectiveJava.getNoOfCopies());
+        System.out.println(cleanCode.getNoOfCopies());
     }
 }
