@@ -3,6 +3,7 @@ package REFERENCE_TYPES;
 public class WrapperClassPractice {
     public static void main(String[] args) {
         //WRAPPER CLASSES ARE IMMUTABLE
+        //2 WAYS TO CREATE WRAPPER CLASS ((1)==>through CONSTRUCTOR(new keyword) (2)==>By using .valueOf())
         Integer i1 = new Integer(5);
         Integer i2 = new Integer(5);
 
