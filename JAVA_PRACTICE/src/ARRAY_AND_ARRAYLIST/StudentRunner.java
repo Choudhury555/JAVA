@@ -25,5 +25,15 @@ public class StudentRunner {
 
         BigDecimal average_2 = student_2.getAverageMarks();
         System.out.println("Average marks : "+average_2);
+
+        System.out.println(student_1);//coming from "toString()" method of Student class
+
+        student_1.addMark(91);
+
+        System.out.println(student_1);
+
+        student_1.removeMarkAtIndex(2);
+
+        System.out.println(student_1);
     }
 }
