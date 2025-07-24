@@ -1,4 +1,4 @@
-package OOPS_BASIC;
+package OOPS_BASIC.OBJECT_COMPOSITION;
 
 public class StoryBookRunner {
     public static void main(String[] args) {
