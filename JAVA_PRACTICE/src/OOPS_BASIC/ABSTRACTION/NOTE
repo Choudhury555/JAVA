@@ -1,0 +1,16 @@
+==>What is an Abstract Class in Java?
+ANS==>An abstract class in Java is a class that cannot be instantiated (you can't create objects from it). It is meant to be inherited by other classes and usually contains abstract methods (methods without a body) as well as concrete methods (methods with implementation).
+
+
+NOTE==>
+Use the abstract keyword.
+-It can have both abstract and non-abstract methods.
+-It can have constructors, fields, and static methods.
+-Cannot be instantiated directly.
+-Must be extended by a subclass which implements all abstract methods.
+
+
+When to Use Abstract Class==>
+-When you want to provide a base template for other classes.
+-When multiple classes share some code but also need to implement their own versions of certain methods.
+-Prefer abstract class when there’s a strong is-a relationship and shared logic (vs. interface which is purely contract-based).
