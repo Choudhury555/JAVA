@@ -1,0 +1,13 @@
+What is an Interface in Java?
+-An interface in Java is a completely abstract type used to define a contract for what a class can do, without saying how it does it.
+
+NOTE==>
+-All methods are public and abstract by default (Java 8+ allows default and static methods too).
+-No constructors (cannot be instantiated).
+-Can contain:
+    :Abstract methods
+    :Default methods (with body)
+    :Static methods
+    :Constants (public, static, final)
+-A class implements an interface using implements keyword.
+-A class can implement multiple interfaces (supports multiple inheritance).
